@@ -8,9 +8,9 @@ public class Main {
         double proc = 17.0;
         int years = 2;
 
-        for (int i = 1; i<years; i++){
+        for (int i = 0; i<years; i++){
 
-            sum += (sum*(proc/100)*years);}
+            sum += (sum*(proc/100));}
 
         System.out.println(sum);
 
